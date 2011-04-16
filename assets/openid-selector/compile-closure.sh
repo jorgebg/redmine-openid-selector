@@ -1,0 +1,11 @@
+python ../closure-library/closure/bin/calcdeps.py \
+-i ../closure-library/closure/goog/deps.js \
+-i js/openid-closure.js \
+-p ../closure-library/closure/goog/ \
+-o compiled \
+-c ../closure-compiler/compiler.jar \
+-f "--compilation_level=ADVANCED_OPTIMIZATIONS" \
+-f "--warning_level=VERBOSE" \
+-f "--define=goog.LOCALE='en'" \
+-f "--define=moose.ALLOW_AUTOLOGIN=true" \
+-f "--externs=js/externs.js" > js/openid-closure-compiled.js

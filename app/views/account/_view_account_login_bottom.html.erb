@@ -1,0 +1,21 @@
+<% content_for :header_tags do %>
+	<link type="text/css" rel="stylesheet" href="/plugin_assets/redmine_openid_selector/stylesheets/openid.css" /> 
+	<script type="text/javascript" src="/plugin_assets/redmine_openid_selector/javascripts/openid.js"></script> 
+	<script type="text/javascript" src="/plugin_assets/redmine_openid_selector/openid-selector/js/openid-en.js"></script> 
+        <script type="text/javascript">
+                document.observe('dom:loaded', function() {
+			openid.img_path = '/plugin_assets/redmine_openid_selector/openid-selector/images/';
+                        openid.init('openid_url');
+                });
+        </script>
+<% end %>
+
+		<br />
+
+		<table class="box openid-selector">
+			<tbody id="openid_choice"> 
+			<tr>	<td>Please click your account provider:</td> </tr>
+			<tr>	<td id="openid_btns"></td> </tr>
+			<tr id="openid_input_area"><td></td></tr>
+			</tbody>
+		</table>

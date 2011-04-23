@@ -1,3 +1,6 @@
-= openid_selector
+Redmine OpenID Selector Plugin by Jorge Barata Gonzalez
+	
+http://www.jorgebg.com/about
 
-Description goes here
+INSTALL
+Copy this plugin to vendor/plugin/ and restart redmine.

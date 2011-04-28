@@ -4,7 +4,7 @@
     <%= javascript_include_tag 'openid-selector/js/openid-en', :plugin => 'redmine-openid-selector' %>
     <script type="text/javascript">
             document.observe('dom:loaded', function() {
-                openid.img_path = "<%= relative_root %>/plugin_assets/redmine-openid-selector/openid-selector/images/";
+                openid.img_path = "<%= relative_root %>/plugin_assets/redmine-openid-selector/javascripts/openid-selector/images/";
                 openid.init('openid_url');
             });
     </script>

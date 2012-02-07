@@ -10,9 +10,6 @@ Provides an OpenID selector at login.
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=jorgebg&url=https://github.com/jorgebg/redmine-openid-selector&title=redmine-openid-selector&language=en_GB&tags=github&category=software) 
 
-
-OpenID plugin must be **activated**.
-
 * [Download](http://www.redmine.org/plugins/openid-selector)
 * [Example](http://redmine-openid-selector.heroku.com/login)
 * [Github](https://github.com/jorgebg/redmine-openid-selector)
@@ -22,4 +19,5 @@ http://code.google.com/p/openid-selector/
 
 ##Install
 
-Follow this "instructions":http://www.redmine.org/projects/redmine/wiki/Plugins .
+OpenID plugin must be **activated**.
+Follow this "instructions":http://www.redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin.

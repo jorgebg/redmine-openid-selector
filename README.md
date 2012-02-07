@@ -14,7 +14,7 @@ Provides an OpenID selector at login.
 OpenID plugin must be **activated**.
 
 * [Download](http://www.redmine.org/plugins/openid-selector)
-* [Example](http://projects.jorgebg.com/login)
+* [Example](http://redmine-openid-selector.heroku.com/login)
 * [Github](https://github.com/jorgebg/redmine-openid-selector)
 
 It uses code from:
@@ -22,4 +22,4 @@ http://code.google.com/p/openid-selector/
 
 ##Install
 
-Copy this plugin to vendor/plugin/ and restart redmine.
+Follow this "instructions":http://www.redmine.org/projects/redmine/wiki/Plugins .

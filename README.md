@@ -20,4 +20,4 @@ http://code.google.com/p/openid-selector/
 ##Install
 
 OpenID plugin must be **activated**.
-Follow this "instructions":http://www.redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin.
+Follow this [instructions](http://www.redmine.org/projects/redmine/wiki/Plugins#Installing-a-plugin).

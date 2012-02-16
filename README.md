@@ -22,6 +22,6 @@ Follow this [instructions](http://www.redmine.org/projects/redmine/wiki/Plugins#
 
 ##Donate
 
-[Donate!](http://projects.jorgebg.com/projects/redmine-openid-selector)
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CZPSYUEQ4GKXY&submit=submit)
 
 [![Flattr this git repo](http://api.flattr.com/button/flattr-badge-large.png)](https://flattr.com/submit/auto?user_id=jorgebg&url=https://github.com/jorgebg/redmine-openid-selector&title=redmine-openid-selector&language=en_GB&tags=github&category=software) 

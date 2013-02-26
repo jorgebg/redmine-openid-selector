@@ -4,3 +4,7 @@ table.openid-selector {
   margin-left: auto;
   margin-right: auto;
 }
+
+#openid_url {
+	display: none;
+}

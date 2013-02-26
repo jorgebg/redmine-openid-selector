@@ -154,7 +154,8 @@ openid = {
 		var date = new Date();
 		date.setTime(date.getTime() + (this.cookie_expires * 24 * 60 * 60 * 1000));
 		var expires = "; expires=" + date.toGMTString();
-		document.cookie = this.cookie_name + "=" + value + expires + "; path=" + this.cookie_path;
+		// Disable the cookie remembering stuff, it's annoying.
+		//document.cookie = this.cookie_name + "=" + value + expires + "; path=" + this.cookie_path;
 	},
 
 	readCookie : function() {

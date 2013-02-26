@@ -1,12 +1,14 @@
 <% content_for :header_tags do %>
-    <%= stylesheet_link_tag 'openid', :plugin => 'redmine-openid-selector' %>
-    <%= javascript_include_tag 'openid', :plugin => 'redmine-openid-selector' %>
-    <%= javascript_include_tag 'openid-selector/js/openid-en', :plugin => 'redmine-openid-selector' %>
+    <%= stylesheet_link_tag 'openid', :plugin => 'redmine_openid_selector' %>
+    <%= javascript_include_tag 'openid-selector/js/openid-jquery', :plugin => 'redmine_openid_selector' %>
+    <%= javascript_include_tag 'openid-selector/js/openid-en', :plugin => 'redmine_openid_selector' %>
     <script type="text/javascript">
-            document.observe('dom:loaded', function() {
-                openid.img_path = "<%= relative_root %>plugin_assets/redmine-openid-selector/javascripts/openid-selector/images/";
-                openid.init('openid_url');
-            });
+            (function($) {
+                $(function() {
+                    openid.img_path = "<%= Redmine::Utils.relative_url_root %>plugin_assets/redmine-openid-selector/javascripts/openid-selector/images/";
+                    openid.init('openid_url');
+                });
+            })(jQuery);
     </script>
 <% end %>
 

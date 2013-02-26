@@ -67,12 +67,3 @@ a.openid_large_btn:focus {
 .openid_selected {
 	border: 4px solid #DDD;
 }
-
-
-table.openid-selector {
-	margin-top: 5em;
-	padding: 1em;
-	margin-left: auto;
-	margin-right: auto;
-}
-

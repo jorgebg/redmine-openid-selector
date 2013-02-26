@@ -5,6 +5,6 @@ table.openid-selector {
   margin-right: auto;
 }
 
-#openid_url {
+#login-form > form table tr:nth-of-type(3) {
 	display: none;
 }

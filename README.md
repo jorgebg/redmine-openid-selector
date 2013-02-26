@@ -1,7 +1,7 @@
 Redmine OpenID Selector Plugin
 ------------------------------
 
-Redmine OpenID Selector Plugin by [Jorge Barata Gonzalez](http://www.jorgebg.com/about)
+Redmine OpenID Selector Plugin by [Jorge Barata Gonzalez](http://www.jorgebg.com/about), upgraded to Redmine 2.x by Steven Jones
 
 ##Description
 
@@ -13,6 +13,10 @@ Provides an OpenID selector at login.
 
 It uses code from:
 http://code.google.com/p/openid-selector/
+
+##Compatibility
+
+The plugin should now be compatible with Redmine 2.x.
 
 ##Install
 

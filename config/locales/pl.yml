@@ -1,0 +1,4 @@
+pl:
+  openid_prompt: "Masz konto na którejś z tych stron?"
+  openid_log_in_with: "Kliknij w jej logo, żeby, używając go, zalogować się tutaj:"
+  openid_alternative: "Jeśli nie masz konta na żadnej z powyższych stron"

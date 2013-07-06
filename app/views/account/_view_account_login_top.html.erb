@@ -17,8 +17,10 @@
 
 		<table class="box openid-selector">
 			<tbody id="openid_choice"> 
-			<tr>	<td><h2>Log in with your account on&hellip;</h2></td> </tr>
+			<tr>	<td><h2><%=l(:openid_prompt)%></h2></td> </tr>
+			<tr>	<td><h3><%=l(:openid_log_in_with)%></h3></td> </tr>
 			<tr>	<td id="openid_btns"></td> </tr>
 			<tr><td id="openid_input_area"></td></tr>
+			<tr>	<td><%=l(:openid_alternative)%> &rarr; <a href="./account/register"><%=l(:label_register)%></a>!</td> </tr>
 			</tbody>
 		</table>

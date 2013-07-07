@@ -1,4 +1,4 @@
 en:
-  openid_prompt: "Do you already have an account on one of these sites?"
+  openid_prompt: "Have an account on one of these sites?"
   openid_log_in_with: "Click the logo to log in with it here:"
   openid_alternative: "If you don’t already have an account on any of the above"

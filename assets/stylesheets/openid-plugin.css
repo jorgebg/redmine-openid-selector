@@ -1,0 +1,10 @@
+table.openid-selector {
+  margin-top: 5em;
+  padding: 1em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#login-form > form table tr:nth-of-type(3) {
+	display: none;
+}

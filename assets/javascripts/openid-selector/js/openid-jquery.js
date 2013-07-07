@@ -53,7 +53,7 @@ openid = {
 				openid_btns.append(box);
 			}
 		}
-		$('#openid_form').submit(this.submit);
+		$('#login-form > form').submit(this.submit);
 		var box_id = this.readCookie();
 		if (box_id) {
 			this.signin(box_id, true);
@@ -97,7 +97,7 @@ openid = {
 		} else {
 			$('#openid_input_area').empty();
 			if (!onload) {
-				$('#openid_form').submit();
+				$('#login-form > form').submit();
 			}
 		}
 	},
@@ -133,7 +133,7 @@ openid = {
 		if (hidden != null) {
 			hidden.value = url;
 		} else {
-			$('#openid_form').append('<input type="hidden" id="' + this.input_id + '" name="' + this.input_id + '" value="' + url + '"/>');
+			$('#login-form > form').append('<input type="hidden" id="' + this.input_id + '" name="' + this.input_id + '" value="' + url + '"/>');
 		}
 	},
 
@@ -154,7 +154,8 @@ openid = {
 		var date = new Date();
 		date.setTime(date.getTime() + (this.cookie_expires * 24 * 60 * 60 * 1000));
 		var expires = "; expires=" + date.toGMTString();
-		document.cookie = this.cookie_name + "=" + value + expires + "; path=" + this.cookie_path;
+		// Disable the cookie remembering stuff, it's annoying.
+		//document.cookie = this.cookie_name + "=" + value + expires + "; path=" + this.cookie_path;
 	},
 
 	readCookie : function() {
